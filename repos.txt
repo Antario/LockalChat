@@ -1,0 +1,22 @@
+pip install asyncqt - asyncqt is an implementation of the PEP 3156 event-loop with Qt. This package is a fork of quamash
+focusing on modern Python versions, with some extra utilities, examples and simplified CI.
+
+
+pip install PySide2 - PySide2 is the official Python module from the Qt for Python project, which provides access to the complete Qt 5.12+ framework.
+The Qt for Python project is developed in the open, with all facilities you'd expect from any modern OSS project such as all code in a git repository and an open design process. We welcome any contribution conforming to the Qt Contribution Agreement.
+
+
+pip install shiboken2 - The purpose of the shiboken2 Python module is to access information related to the binding generation that could be used to integrate C++ programs to Python, or even to get useful information to debug an application.
+Mostly the idea is to interact with Shiboken objects, where one can check if it is valid, or if the generated Python wrapper is invalid after the underlying C++ object has been destroyed.
+More information on the available functions can be found in our official documentation
+
+
+pip install Twisted - wisted is an event-based framework for internet applications, supporting Python 3.6+. It includes modules for many different purposes, including the following:
+twisted.web: HTTP clients and servers, HTML templating, and a WSGI server
+twisted.conch: SSHv2 and Telnet clients and servers and terminal emulators
+twisted.words: Clients and servers for IRC, XMPP, and other IM protocols
+twisted.mail: IMAPv4, POP3, SMTP clients and servers
+twisted.positioning: Tools for communicating with NMEA-compatible GPS receivers
+twisted.names: DNS client and tools for making your own DNS servers
+twisted.trial: A unit testing framework that integrates well with Twisted-based code.
+Twisted supports all major system event loops – select (all platforms), poll (most POSIX platforms), epoll (Linux), kqueue (FreeBSD, macOS), IOCP (Windows), and various GUI event loops (GTK+2/3, Qt, wxWidgets). Third-party reactors can plug into Twisted, and provide support for additional event loops.
